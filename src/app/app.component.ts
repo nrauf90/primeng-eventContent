@@ -17,6 +17,7 @@ export class AppComponent {
       { title: 'event 1', date: '2023-06-10', extraText: 'Muhammad Noman Rauf' },
       { title: 'event 2', date: '2023-06-21' , extraText: 'Muhammad Noman Rauf' }
     ],
+    //Custom Content for Events
     eventContent: (arg: any) =>
     {   //add time
       console.log(arg.event)
